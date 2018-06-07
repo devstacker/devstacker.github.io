@@ -9,14 +9,13 @@
     <meta name="description" content="development blog">
 <meta name="keywords" content="web development, programming, computer science">
 <meta property="og:type" content="website">
-<meta property="og:title" content="search">
-<meta property="og:url" content="https://devstacker.github.io/search/index.html">
+<meta property="og:title" content="다혜로그">
+<meta property="og:url" content="https://devstacker.github.io/tags/first/index.html">
 <meta property="og:site_name" content="다혜로그">
 <meta property="og:description" content="development blog">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-06-06T11:39:11.126Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="search">
+<meta name="twitter:title" content="다혜로그">
 <meta name="twitter:description" content="development blog">
     
     
@@ -37,7 +36,7 @@
         
     
     <!-- title -->
-    <title>search</title>
+    <title>다혜로그</title>
     <!-- styles -->
     <link rel="stylesheet" href="/css/style.css">
     <!-- persian styles -->
@@ -83,23 +82,37 @@
 </header>
 
         
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  
-    <section id="search">
-  <form>
-    <input type="text" class="search-input" id="search-input" placeholder="Search...">
-  </form>
-  <div id="search-result"></div>
-  <p class="search-no-result">No results found.</p>
-</section>
-
-  
-  
-
-  <div class="content" itemprop="articleBody">
+        <div id="archive">
+  <ul class="post-list">
     
-  </div>
-</article>
+    
+    
+      
+      
+      
+      
+        <h2>2018</h2>
+      
+      <li class="post-item">
+        
+    <div class="meta">
+        <time datetime="2018-06-04T06:32:30.000Z" itemprop="datePublished">2018-06-04</time>
+    </div>
+
+
+        <span>
+    
+        <a class="" href="/2018/06/04/My-New-Post/">My New Post</a>
+    
+
+
+</span>
+      </li>
+    
+  </ul>
+  
+
+</div>
 
     </div>
     
@@ -137,35 +150,6 @@
 <script src="/js/main.js"></script>
 <!-- search -->
 
-  <script src="/js/search.js"></script>
-  <script type="text/javascript">
-    var inputArea = document.querySelector("#search-input");
-    var $resultArea = $("#search-result");
-
-    inputArea.onfocus = function() {
-      var search_path = "search.xml";
-      if (search_path.length == 0) {
-        search_path = "search.xml";
-      }
-      var path = "/" + search_path;
-      searchFunc(path, 'search-input', 'search-result');
-    }
-
-    inputArea.onkeydown = function(){
-        if(event.keyCode==13){
-            return false
-        }
-    }
-
-    $resultArea.bind("DOMNodeRemoved DOMNodeInserted", function(e) {
-        if (!$(e.target).text()) {
-            $(".search-no-result").show(200);
-        } else {
-            $(".search-no-result").hide();
-        }
-    })
-  </script>
-
 <!-- Google Analytics -->
 
     <script type="text/javascript">
@@ -188,7 +172,7 @@
             var dsq = document.createElement('script');
             dsq.type = 'text/javascript';
             dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         }());
     </script>

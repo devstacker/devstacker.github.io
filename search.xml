@@ -6,8 +6,14 @@
       <title>My New Post</title>
       <link href="/2018/06/04/My-New-Post/"/>
       <url>/2018/06/04/My-New-Post/</url>
-      <content type="html"><![CDATA[]]></content>
+      <content type="html"><![CDATA[<p>테스트</p>]]></content>
       
+      
+        <tags>
+            
+            <tag> first </tag>
+            
+        </tags>
       
     </entry>
     
