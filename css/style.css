@@ -335,6 +335,7 @@
   display: block;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
+  margin-left: 1.2rem;
   color: #383838;
   text-transform: none;
   letter-spacing: normal;
@@ -615,7 +616,6 @@ body {
 #header #nav ul li {
   display: inline-block;
   margin-right: 15px;
-  border-right: 1px dotted #2bbc8a;
   vertical-align: middle;
 }
 #header #nav ul .icon {
@@ -1064,7 +1064,7 @@ article header .postdate {
 article .content h2:before {
   position: absolute;
   top: -4px;
-  left: -1.5rem;
+  left: -1.2rem;
   color: #2bbc8a;
   content: "#";
   font-weight: bold;
@@ -1215,7 +1215,6 @@ article .content .caption {
 #footer li {
   display: inline-block;
   margin-right: 15px;
-  border-right: 1px solid #666;
   vertical-align: middle;
 }
 #footer li a {
