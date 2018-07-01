@@ -348,14 +348,20 @@
   font-weight: bold;
   font-size: 1.3rem;
 }
-.content h4,
-.content h5,
-.content h6 {
+.content h4 {
   display: inline;
   color: #664dab;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
+}
+.content h5,
+.content h6 {
+  display: inline;
+  color: #444;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
 }
 .content h3,
 .content h4,
