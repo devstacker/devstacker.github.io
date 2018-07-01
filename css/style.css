@@ -336,14 +336,14 @@
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   margin-left: 1.2rem;
-  color: #383838;
+  color: #444;
   text-transform: none;
   letter-spacing: normal;
   font-weight: bold;
   font-size: 1.7rem;
 }
 .content h3 {
-  color: #383838;
+  color: #444;
   text-decoration: solid;
   font-weight: bold;
   font-size: 1.3rem;
@@ -422,7 +422,7 @@
 .content th {
   padding: 8px;
   border-bottom: 1px dashed $color-code-border;
-  color: #383838;
+  color: #444;
   font-weight: bold;
   font-size: 15px;
 }
@@ -433,7 +433,7 @@
 @font-face {
   font-style: normal;
   font-family: 'NanumSquareRound', sans-serif;
-  src: local("NanumSquareRound"), url("../lib/nanum-font/NanumSquareRoundL.ttf") format("truetype");
+  src: local("NanumSquareRound"), url("../lib/nanum-font/NanumSquareRound.ttf") format("truetype");
 }
 *,
 *:before,
@@ -442,7 +442,7 @@
 }
 html {
   height: 100%;
-  border-top: 2px solid #383838;
+  border-top: 2px solid #565656;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -450,7 +450,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  color: #383838;
+  color: #565656;
   font-weight: 400;
   font-size: 16px;
   font-family: "NanumSquareRound", sans-serif;
@@ -475,9 +475,10 @@ body {
   -webkit-hyphens: manual;
 }
 .content a {
-  color: #383838;
+  color: #565656;
+  font-weight: bold;
   text-decoration: none;
-  background-image: linear-gradient(transparent, transparent 5px, #383838 5px, #383838);
+  background-image: linear-gradient(transparent, transparent 5px, #565656 5px, #565656);
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -564,7 +565,7 @@ body {
 #header .h1 {
   margin-top: 0;
   margin-bottom: 0.5em;
-  color: #383838;
+  color: #565656;
   letter-spacing: 0.01em;
   font-weight: 700;
   font-style: normal;
@@ -585,10 +586,10 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 5px;
-  filter: grayscale(95%);
+  filter: grayscale(40%);
   background-size: 60px 60px;
   background-repeat: no-repeat;
-  -webkit-filter: grayscale(95%);
+  -webkit-filter: grayscale(40%);
 }
 #header #nav {
   color: #2bbc8a;
@@ -803,7 +804,7 @@ body {
   display: none;
 }
 #header-post #toc .toc-level-2 {
-  color: #383838;
+  color: #565656;
   font-size: 0.8rem;
 }
 #header-post #toc .toc-level-2:before {
@@ -975,7 +976,7 @@ body {
   display: none;
 }
 #footer-post #toc-footer .toc-level-2 {
-  color: #383838;
+  color: #565656;
   font-size: 0.8rem;
 }
 #footer-post #toc-footer .toc-level-2:before {
@@ -1262,21 +1263,21 @@ article .content .caption {
   text-align: center;
 }
 .pagination .page-number {
-  color: #383838;
+  color: #565656;
   font-size: 0.8rem;
 }
 .pagination a {
   padding: 4px 6px;
   border-radius: 5px;
   background-image: none;
-  color: #383838;
+  color: #565656;
   text-decoration: none;
 }
 .pagination a:hover {
   background-image: none;
 }
 .pagination a:hover:not(.active) {
-  color: #383838;
+  color: #444;
 }
 .search-input {
   padding: 4px 7px;
@@ -1285,7 +1286,7 @@ article .content .caption {
   border: solid 1px #8c8c8c;
   border-radius: 5px;
   background-color: #fff;
-  color: #383838;
+  color: #565656;
   font-size: 1.2rem;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1302,7 +1303,7 @@ article .content .caption {
 }
 #search-result a.search-result-title {
   background-image: none;
-  color: #383838;
+  color: #565656;
   text-transform: capitalize;
   font-weight: bold;
   line-height: 1.2;
@@ -1322,70 +1323,68 @@ article .content .caption {
 .search-no-result {
   display: none;
   padding-bottom: 0.5em;
-  color: #383838;
+  color: #565656;
 }
 .highlight {
-  background: #474949;
-  color: #d1d9e1;
+  color: #585260;
+  background: #efecf4;
 }
 .highlight .code .comment,
 .highlight .code .quote {
-  color: #969896;
-  font-style: italic;
-}
-.highlight .code .keyword,
-.highlight .code .selector-tag,
-.highlight .code .literal,
-.highlight .code .type,
-.highlight .code .addition {
-  color: #c9c;
-}
-.highlight .code .number,
-.highlight .code .selector-attr,
-.highlight .code .selector-pseudo {
-  color: #f99157;
-}
-.highlight .code .string,
-.highlight .code .doctag,
-.highlight .code .regexp {
-  color: #8abeb7;
-}
-.highlight .code .title,
-.highlight .code .name,
-.highlight .code .section,
-.highlight .code .built_in {
-  color: #b5bd68;
+  color: #b0adb4;
 }
 .highlight .code .variable,
 .highlight .code .template-variable,
-.highlight .code .selector-id,
-.highlight .code .class .title {
-  color: #fc6;
-}
-.highlight .code .section,
+.highlight .code .attribute,
+.highlight .code .tag,
 .highlight .code .name,
-.highlight .code .strong {
+.highlight .code .regexp,
+.highlight .code .link,
+.highlight .code .selector-id,
+.highlight .code .selector-class {
+  color: #be4678;
+}
+.highlight .code .number,
+.highlight .code .meta,
+.highlight .code .built_in,
+.highlight .code .builtin-name,
+.highlight .code .literal,
+.highlight .code .type,
+.highlight .code .params {
+  color: #aa573c;
+}
+.highlight .code .string,
+.highlight .code .symbol,
+.highlight .code .bullet {
+  color: #26a77b;
+}
+.highlight .code .title,
+.highlight .code .section {
+  color: #576ddb;
   font-weight: bold;
 }
-.highlight .code .symbol,
-.highlight .code .bullet,
-.highlight .code .subst,
-.highlight .code .meta,
-.highlight .code .link {
-  color: #f99157;
+.highlight .code .keyword,
+.highlight .code .selector-tag {
+  color: #955ae7;
+  font-weight: bold;
+}
+.highlight .code .deletion,
+.highlight .code .addition {
+  color: #19171c;
+  display: inline-block;
+  width: 100%;
 }
 .highlight .code .deletion {
-  color: #dc322f;
+  background-color: #be4678;
 }
-.highlight .code .formula {
-  background: #eee8d5;
-}
-.highlight .code .attr,
-.highlight .code .attribute {
-  color: #81a2be;
+.highlight .code .addition {
+  background-color: #26a77b;
 }
 .highlight .code .emphasis {
   font-style: italic;
+}
+.highlight .code .strong {
+  font-weight: bold;
 }
 pre {
   overflow-x: auto;
@@ -1457,4 +1456,7 @@ code {
 }
 .highlight .line {
   height: 22px;
+}
+.notice {
+  font-weight: bold;
 }

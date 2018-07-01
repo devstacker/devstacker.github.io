@@ -17,7 +17,7 @@
   font-weight: 300;
 }
 .rtl {
-  font-family: vazir, sans-serif;
+  font-family: 'NanumSquareRound', sans-serif;
   direction: rtl;
 }
 .rtl #nav li {
