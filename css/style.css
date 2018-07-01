@@ -352,11 +352,10 @@
 .content h5,
 .content h6 {
   display: inline;
-  border-bottom: 1px dashed #8c8c8c;
-  color: #8c8c8c;
+  color: #664dab;
   text-decoration: none;
-  font-weight: normal;
-  font-size: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 .content h3,
 .content h4,
@@ -417,14 +416,14 @@
   width: 100%;
   border-collapse: collapse;
   text-align: left;
-  font-size: 14px;
+  font-size: 13px;
 }
 .content th {
   padding: 8px;
   border-bottom: 1px dashed $color-code-border;
   color: #444;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
 }
 .content td {
   padding: 9px 8px 0;
@@ -452,7 +451,7 @@ body {
   background-color: #fff;
   color: #565656;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "NanumSquareRound", sans-serif;
   line-height: 1.725;
   text-rendering: geometricPrecision;
@@ -1403,9 +1402,8 @@ pre code {
   border: none;
 }
 code {
-  padding: 0 5px;
-  border: 1px dotted #666;
-  border-radius: 2px;
+  padding: 0 2px;
+  background-color: #f0e5e1;
   -webkit-border-radius: 2px;
 }
 .highlight {
