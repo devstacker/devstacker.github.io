@@ -64,14 +64,14 @@
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
-      <content type="html"><![CDATA[<h2 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h2><p><a href="/categories/algorithm/">algorithm</a><br><!-- [web development](/categories/web-development/) --><br><a href="/categories/machine-learning/">machine learning</a></p>]]></content>
+      <content type="html"><![CDATA[<h2 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h2><p><a href="/categories/algorithm/">algorithm</a><br><a href="/categories/machine-learning/">machine learning</a><br><!-- [web development](/categories/web-development/) --></p>]]></content>
     </entry>
     
     <entry>
       <title>tags</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
-      <content type="html"><![CDATA[<h2 id="Tags"><a href="#Tags" class="headerlink" title="Tags"></a>Tags</h2><!-- - [aws](/tags/aws/) --><ul><li><a href="#tags">Tags</a><!-- - [frontend](/tags/frontend/) --><!-- - [backend](/tags/backend/) --></li><li><a href="/tags/python/">python</a></li><li><a href="/tags/tensorflow/">tensorflow</a></li><li><a href="/tags/study/">study</a></li></ul>]]></content>
+      <content type="html"><![CDATA[<h2 id="Tags"><a href="#Tags" class="headerlink" title="Tags"></a>Tags</h2><!-- - [aws](/tags/aws/) --><!-- - [frontend](/tags/frontend/) --><!-- - [backend](/tags/backend/) --><ul><li><a href="/tags/algorithm/">algorithm</a></li><li><a href="/tags/python/">python</a></li><li><a href="/tags/tensorflow/">tensorflow</a></li><li><a href="/tags/study/">study</a></li></ul>]]></content>
     </entry>
     
     <entry>
