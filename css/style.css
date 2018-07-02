@@ -325,7 +325,7 @@
   letter-spacing: 0.01em;
   font-weight: 700;
   font-style: normal;
-  font-size: 2em;
+  font-size: 1.8em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -340,7 +340,7 @@
   text-transform: none;
   letter-spacing: normal;
   font-weight: bold;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 .content h3 {
   color: #444;

@@ -54,6 +54,13 @@
   
     
     <entry>
+      <title>Search</title>
+      <link href="/Search/index.html"/>
+      <url>/Search/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -65,13 +72,6 @@
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<h2 id="about-me"><a href="#about-me" class="headerlink" title="about me"></a>about me</h2>]]></content>
-    </entry>
-    
-    <entry>
-      <title>local search page</title>
-      <link href="/search/index.html"/>
-      <url>/search/index.html</url>
-      <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
