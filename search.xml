@@ -61,17 +61,17 @@
     </entry>
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      <content type="html"><![CDATA[<h2 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h2><ul><li><a href="/categories/algorithm/">algorithm</a></li><li><a href="/categories/machine-learning/">machine learning</a><!-- - [web development](/categories/web-development/) --></li></ul>]]></content>
-    </entry>
-    
-    <entry>
       <title>about</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<h2 id="about-me"><a href="#about-me" class="headerlink" title="about me"></a>about me</h2>]]></content>
+    </entry>
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[<h2 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h2><ul><li><a href="/categories/algorithm/">algorithm</a></li><li><a href="/categories/machine-learning/">machine learning</a><!-- - [web development](/categories/web-development/) --></li></ul>]]></content>
     </entry>
     
     <entry>
